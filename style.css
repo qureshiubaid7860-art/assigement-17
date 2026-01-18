@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-80 {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #030915;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030915;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+/* hero section */
+.hero {
+    background-color: #030915;
+    height: 805px;
+
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    width: 500px;
+}
+
+.htext {
+    font-size: 96px;
+
+}
+
+.box1 p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: -20px;
+    margin: 15px 150px 15px 0px;
+
+}
+
+.box1 button {
+    padding: 30px 50px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #030915;
+    color: #ffffff;
+    width: 200px;
+}
+
+.box2 {
+    position: relative;
+}
+
+.box2 img {
+    position: absolute;
+    left: 700px;
+    top: -90px;
+}
+
+/* cars section */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    width: 170px;
+    height: 122px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 164px 0 133px 0;
+}
+
+.box h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #6F6F6F;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hed h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #272727;
+}
+
+.modles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modles p {
+    margin: 61px 35px;
+    font-size: 24px;
+    color: #313131;
+}
+
+.show-room {
+    align-items: center;
+}
+
+.images-car {
+    width: 71%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: white;
+    width: 200px;
+}
+
+.text button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.rolls {
+    position: absolute;
+    bottom: 20px;
+    left: 390px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-weight: 900;
+    font-size: 64px;
+    margin: 70px 0;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 455px 645px);
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(2, 645px 455px);
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.boxes-text {
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 30px 40px;
+    line-height: 27px;
+    background-color: #161C28;
+}
+
+.boxes-text h3 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.boxes-text a {
+    color: white;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.boxes-text p {
+    padding: 10px 0px;
+}
+
+.boxes-text img {
+    width: 197px;
+    padding-top: 30px;
+}
+
+.boxes {
+    border-radius: 12px;
+}
+
+.boxes1 {
+    border-radius: 12px;
+}
+
+.boxes-text1 {
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 30px 40px;
+    line-height: 27px;
+    background-color: #161C28;
+}
+
+.boxes-text1 h3 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.boxes-text1 a {
+    color: white;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.boxes-text1 p {
+    padding: 10px 0px;
+}
+
+.boxes-text1 img {
+    width: 197px;
+    padding-top: 30px;
+}
+
+.sec-3 {
+    margin-left: 125px;
+    margin-bottom: 184px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #030915;
+     height: 294px;
+}
+
+.footer p {
+    color: white;
+    line-height: 30px;
+}
+/* small mobile css */
+@media (max-width:500px) {
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        color: #ffffff;
+        margin-right: 20px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    header {
+        width: 100%;
+        position: sticky;
+        margin: 0px;
+    }
+
+    .hero {
+        width: 100%;
+        height: 500px;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 250px;
+    }
+
+    .htext {
+        font-size: 40px;
+    }
+
+    .box1 p {
+        margin: 0px;
+        margin: 20px 0px;
+    }
+
+    .box1 button {
+        width: 200px;
+    }
+
+    .hero-car {
+        position: relative;
+    }
+
+    .box2 {
+        position: absolute;
+        right: 1150px;
+        bottom: -150px;
+    }
+
+    .box2 img {
+        width: 380px;
+    }
+
+    .buttons {
+        margin: 50px 0px 0px 40px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        margin: 20px;
+    }
+
+    .img1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 200px;
+        position: relative;
+    }
+
+    .text {
+        display: flex;
+    }
+
+    .text button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .img-banner {
+       background: url(./images/beautiful-rolls-royce-car_999195-437-removebg-preview\ 1.png);
+        height: 300px;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+
+    .rolls {
+        width: 300px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .modles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modles p {
+        margin: 40px;
+    }
+
+    .images-car {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 0px 60px ;
+        justify-content: center;
+    }
+
+    .images-car div {
+        margin: 30px 0px;
+    }
+
+    .heading h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .parent1 {
+        display: grid;
+        grid-template-columns: repeat(1, 345px);
+        justify-items: center;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(1, 345px);
+        justify-items: center;
+    }
+
+    .boxes1 img {
+        border-radius: 12px;
+        width: 345px;
+    }
+
+    .boxes img {
+        border-radius: 12px;
+        width: 345px;
+    }
+    .sec-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px 0px 30px 0px;
+    }
+    .flinks{
+        display: none;
+    }
+    footer{
+        margin: 0px;
+        width: 100vw;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+     nav {
+        display: none;
+    }
+
+    .hamburger {
+        color: #ffffff;
+        margin-right: 20px;
+    }
+    
+
+}
