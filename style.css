@@ -13,6 +13,16 @@ body{
   font-weight: 700;
   font-style: italic;
 }
+p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+a{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 header {
     background-color: #030915;
 }
@@ -482,4 +492,5 @@ nav a {
 
 
 }
+
 
